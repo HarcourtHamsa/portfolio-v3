@@ -1,0 +1,49 @@
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 10;
+}
+
+.loader p {
+  color: white;
+  font-family: "MonumentExtended";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  // font-size: large;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pace {
+  width: 400px;
+  height: 2px;
+  background-color: #e3e3e3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  overflow: hidden;
+}
+
+.pace-progress {
+  // width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: grey;
+  z-index: 2;
+  display: block;
+  right: 100%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .pace {
+    width: 70vw;
+  }
+}

@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: #161616;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "JetBrains";
+  src: url("../assets/fonts/JetBrainsMono-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Canopee";
+  src: url("../assets/fonts/BebasNeue-Regular.otf");
+}
+
+@font-face {
+  font-family: "LucyTheCatRegular";
+  src: url("../assets/fonts/LucyTheCatRegular-Bg9x.ttf");
+}
+
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("../assets/fonts/NeueMontreal-Regular.otf");
+  }
+
+@font-face {
+    font-family: "MonumentExtended";
+    src: url("../assets/fonts/MonumentExtended-Regular.otf");
+  }
+  

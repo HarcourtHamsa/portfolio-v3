@@ -1,0 +1,55 @@
+.opaque-text {
+  font-size: clamp(2em, 8em, 11em);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.4);
+  color: rgba(225, 225, 225, 0.05);
+  white-space: nowrap;
+  font-family: "Canopee";
+}
+
+.text-signature {
+  position: absolute;
+  text-decoration: underline;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewY(-10deg);
+  font-size: 18px;
+  font-family: "LucyTheCatRegular";
+  font-size: 29px;
+  /* display: none; */
+}
+
+.social-links {
+  /* background-color: red; */
+  padding: 0;
+  width: fit-content;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  font-family: "NeueMontreal";
+  text-transform: capitalize;
+}
+
+.social-links img {
+  transform: scale(0.6);
+  /* background-color: red; */
+}
+
+@media (max-width: 600px) {
+  .opaque-text {
+    transform: translate(-50%, -50%) scale(.8);
+  }
+}
